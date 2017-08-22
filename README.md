@@ -2,6 +2,12 @@
 
 Python module for interacting with the Tesco API.
 
+## install
+
+```sh
+$ pip install tesco
+```
+
 ## Usage
 
 ```python
