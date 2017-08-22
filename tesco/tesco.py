@@ -16,6 +16,8 @@ class Tesco:
         return response.json()
 
     def lookup(self, gtin=None, tpnb=None, tpnc=None, catid=None):
+        """Lookup a product on Tesco."""
+
         params = {
             'gtin': gtin,
             'tpnb': tpnb,
