@@ -1,3 +1,6 @@
+import requests
+
+
 class Tesco:
 
     base_url = 'https://dev.tescolabs.com/{path}'
