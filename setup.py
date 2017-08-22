@@ -6,7 +6,7 @@ with open('README.md') as file:
 
 setup(
     name='tesco',
-    version=__version__,
+    version='0.1.0',
     description='Python module for interacting with the Tesco API.',
     long_description=long_description,
     url='https://github.com/thomasleese/pytesco',
