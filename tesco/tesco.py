@@ -18,9 +18,9 @@ class Tesco:
     def lookup(self, gtin=None, tpnb=None, tpnc=None, catid=None):
         params = {
             'gtin': gtin,
-            'tpnd': tpnd,
+            'tpnb': tpnb,
             'tpnc': tpnc,
             'catid': catid,
         }
 
-        return self._make_request('/product/', params)
+        return self._make_request('/product/', params)['products']
