@@ -36,7 +36,13 @@ class Tesco:
         if isinstance(value, list):
             return [self._dict_to_object(x) for x in value]
         elif isinstance(value, dict):
-            return namedtuple('NutritionObject', value.keys())(**{k: self._dict_to_object(v) for k, v in value.items()})
+            klass = namedtuple('TescoResponse', value.keys())
+
+            converted_data = {
+                k: self._dict_to_object(v) for k, v in value.items()
+            }
+
+            return klass(**converted_data)
         else:
             return value
 
