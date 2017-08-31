@@ -1,0 +1,182 @@
+{
+"product": {
+"gtin": "05022313731773",
+"tpnb": "051612172",
+"tpnc": "296050487",
+"description": "Tropicana Orange Juice Smooth 950 Ml",
+"brand": "TROPICANA",
+"qtyContents": {
+"quantity": 950.0,
+"totalQuantity": 950.0,
+"quantityUom": "ml",
+"netContents": "950ml \u212e",
+"avgMeasure": "Average Measure (e)"
+},
+"productCharacteristics": {
+"isFood": false,
+"isDrink": true,
+"healthScore": 78,
+"isHazardous": false,
+"storageType": "Chilled"
+},
+"ingredients": [
+"100% Orange Juice"
+],
+"gda": {
+"gdaRefs": [
+{
+"gdaDescription": "Per Portion",
+"headers": [
+"Each 150ml serving contains"
+],
+"footers": [
+"Energy per 100ml: 182kJ / 43kcal",
+"Sugars - \u2020Naturally found in juice",
+"Reference Intake of an average adult (8400kJ/2000kcal)"
+],
+"values": [
+{
+"name": "Energy",
+"values": [
+"273 kJ",
+"65kcal"
+],
+"percent": "3"
+},
+{
+"name": "Fat",
+"values": [
+"0g"
+],
+"percent": "0",
+"rating": "low"
+},
+{
+"name": "Saturates",
+"values": [
+"0g"
+],
+"percent": "0",
+"rating": "low"
+},
+{
+"name": "Sugars",
+"values": [
+"13g"
+],
+"percent": "15",
+"rating": "medium"
+},
+{
+"name": "Salt",
+"values": [
+"0g"
+],
+"percent": "0",
+"rating": "low"
+}
+]
+}
+]
+},
+"calcNutrition": {
+"per100Header": "per 100ml",
+"perServingHeader": "150ml",
+"calcNutrients": [
+{
+"name": "Energy (kJ)",
+"valuePer100": "182",
+"valuePerServing": "273"
+},
+{
+"name": "Energy (kcal)",
+"valuePer100": "43",
+"valuePerServing": "65"
+},
+{
+"name": "Fat (g)",
+"valuePer100": "0",
+"valuePerServing": "0"
+},
+{
+"name": " of which saturates (g)",
+"valuePer100": "0",
+"valuePerServing": "0"
+},
+{
+"name": "Carbohydrate (g)",
+"valuePer100": "8.9",
+"valuePerServing": "13.4"
+},
+{
+"name": " of which sugars (g)",
+"valuePer100": "8.9",
+"valuePerServing": "13.4"
+},
+{
+"name": "Fibre (g)",
+"valuePer100": "0.6",
+"valuePerServing": "0.9"
+},
+{
+"name": "Protein (g)",
+"valuePer100": "0.8",
+"valuePerServing": "1.2"
+},
+{
+"name": "Salt (g)",
+"valuePer100": "0",
+"valuePerServing": "0"
+},
+{
+"name": "Vitamin C (mg)",
+"valuePer100": "33",
+"valuePerServing": "50"
+},
+{
+"name": "Folic Acid (\u00b5g)",
+"valuePer100": "23",
+"valuePerServing": "35"
+},
+{
+"name": "Potassium (mg)",
+"valuePer100": "198",
+"valuePerServing": "297"
+}
+]
+},
+"storage": [
+"Always store in your refrigerator.\nFor best before date please see top of carton."
+],
+"marketingText": "Little Glass has a lot of what you need...\nVitamin C contains 62% of the recommended daily Vitamin C, which can help reduce tiredness.\nPotassium helps maintain normal blood pressure.\nVitamin B9 to help support the normal function of your immune system.\n...all in just 150ml of Tropicana\n\n1 of your 5 a day\n150ml of Tropicana Pure Premium provides one of your daily portions of fruit and vegetables.\n\n150ml of Tropicana...\n... may not look like much but it packs a big punch. That's because Little Glass contains 62% of the recommended daily Vitamin C.\nLittle Glass, big benefits.",
+"pkgDimensions": [
+{
+"no": 1,
+"height": 23.2,
+"width": 7.0,
+"depth": 7.0,
+"dimensionUom": "cm",
+"weight": 1021.0,
+"weightUom": "g",
+"volume": 1136.8,
+"volumeUom": "cc"
+}
+],
+"productAttributes": [
+{
+"category": [
+{
+"third_party_logos": [
+{
+"third_party_logo": {
+"name": "third_party_logo",
+"value": "FSC"
+}
+}
+]
+}
+]
+}
+]
+}
+}

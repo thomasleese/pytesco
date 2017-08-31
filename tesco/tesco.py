@@ -3,6 +3,8 @@ import re
 
 import requests
 
+from .data import Product, Nutrition
+
 
 class Tesco:
 
@@ -48,7 +50,12 @@ class Tesco:
 
     def parse_product(self, data):
         snakecase_data = self._camelcase_to_snakecase(data)
-        return self._dict_to_object(snakecase_data)
+        converted_data = {k: self._dict_to_object(v) for k, v in snakecase_data.items()}
+
+        del converted_data['calc_nutrition']
+        converted_data['nutrition'] = Nutrition.parse(data['calcNutrition'])
+
+        return Product(**converted_data)
 
     def lookup(self, gtin=None, tpnb=None, tpnc=None, catid=None):
         """Lookup a product on Tesco."""
